@@ -9,9 +9,9 @@ Sample Dockerfile. This will create a container that is:
 
 Run it like:
 
- docker run -t -i jimmyislive/base:v3 /bin/bash
+ `docker run -t -i jimmyislive/base:v3 /bin/bash`
  
 To build a new container using this Dockerfile:
 
-  docker build -t <your-user-name>/<some-name>:<tag> .
+  `docker build -t <your-user-name>/<some-name>:<tag> .`
 
